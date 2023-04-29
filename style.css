@@ -1,0 +1,103 @@
+body {
+    background: #000;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+  }
+  .header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0px 10px;
+  }
+  .header div {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+  }
+  .btn {
+    border: none;
+    background-color: #000;
+    color: white;
+  }
+  
+  .singup-container {
+    width: 70%;
+    min-width: 300px;
+    display: flex;
+    flex-flow: column;
+  
+    height: 60vh;
+    margin: auto;
+    padding: 5%;
+    /* border: 1px solid red; */
+  }
+  
+  .singup-container h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    flex-basis: 20%;
+  }
+  .singup-container form {
+    flex-basis: 70%;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+  .singup-container form input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    height: 35px;
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 0px;
+  }
+  .singup-container form input:focus {
+    outline: none;
+  }
+  .error,
+  .success {
+    display: none;
+    margin: 5px;
+  }
+  .error {
+    color: red;
+  }
+  .success {
+    color: green;
+  }
+  #submit {
+    width: fit-content;
+    padding: 4px 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  #email:valid {
+    background-color: transparent !important;
+  }
+  
+  .profile-container {
+    display: none;
+  }
+  
+  /* /////////*/
+  .profile-container {
+    width: 70%;
+    min-width: 300px;
+    display: flex;
+    flex-flow: column;
+    height: 60vh;
+    margin: auto;
+    padding: 5%;
+  }
+  
+  .credential {
+    font-size: 3rem;
+  }
+  
+  .logout {
+    padding: 5px 30px;
+  }

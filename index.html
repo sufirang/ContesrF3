@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="header">
+      <p>Header</p>
+      <div>
+        <button class="btn btns">Signup</button>
+        <button class="btn btnp">Profile</button>
+      </div>
+    </nav>
+    <section class="singup-container">
+      <h1 class="h-primary">Signup</h1>
+      <form id="signup-form" method="post">
+        <input type="text" id="userName" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="pass" placeholder="Password" required />
+        <input
+          type="password"
+          id="cnfPass"
+          placeholder="Confirm Password"
+          required
+        />
+        <p class="error">Error:All fields are mandatory</p>
+        <p class="success">Successfully Signed Up!</p>
+        <button type="submit" id="submit">Signup</button>
+      </form>
+    </section>
+    <section class="profile-container">
+      <div class="credential"></div>
+      <button class="logout">Logout</button>
+    </section>
+  </body>
+</html>
